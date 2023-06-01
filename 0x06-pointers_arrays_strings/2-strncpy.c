@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strncpy - copies a string
+ * main - check the code
+ *
  * Return: the pointer to dest.
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
