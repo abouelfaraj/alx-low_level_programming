@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * _strncpy - copies a string
  * Return: the pointer to dest.
  */
 
