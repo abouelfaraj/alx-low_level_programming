@@ -35,7 +35,7 @@ typedef struct shash_node_s
  * @shead: A pointer to the first element of the sorted linked list
  * @stail: A pointer to the last element of the sorted linked list
  */
-itypedef struct shash_table_s
+typedef struct shash_table_s
 {
 	unsigned long int size;
 	shash_node_t **array;
@@ -86,6 +86,6 @@ hash_node_t *add_n_hash(hash_node_t **head, const char *key, const char *value);
 int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 
 /* 4-hash_table_get.c */
-char *hash_table_get(const hash_table_t *ht, const char *key)
+char *hash_table_get(const hash_table_t *ht, const char *key);
 
 #endif /* HASH_TABLES_H */
