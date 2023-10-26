@@ -4,9 +4,10 @@
 
 
 def island_perimeter(grid):
-    """function def island_perimeter(grid): that returns the perimeter of the island"""
+    """function def island_perimeter(grid): that returns the perimeter"""
+
     perimeter = 0
-    lcolumns =0
+    lcolumns = 0
     lrows = len(grid)
 
     if grid != []:
