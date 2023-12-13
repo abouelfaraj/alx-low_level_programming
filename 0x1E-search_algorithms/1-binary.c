@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * recursive_search - searches for a value in an array of
+ * search_recursing - searches for a value in an array of
  * integers using the Binary search algorithm
  *
  *
@@ -51,6 +51,7 @@ int search_recursing(int *array, size_t size, int value)
 int binary_search(int *array, size_t size, int value)
 {
 	int i;
+
 	i = search_recursing(array, size, value);
 
 	if (i >= 0 && array[i] != value)
